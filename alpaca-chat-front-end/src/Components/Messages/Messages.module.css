@@ -1,0 +1,48 @@
+.userMessages{
+    display: block;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.botMessages{
+    display: block;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.userMessages > div > img {
+    margin-top:25%;
+    width: 3rem;
+    height: 3rem;
+    border-radius:.8rem;
+}
+.botMessages > div > img {
+    margin-top:25%;
+    width: 3rem;
+    height: 3rem;
+    border-radius:.8rem;
+}
+.imgContainer{
+    width: 5%; /* Ajuste a largura conforme necessário */
+    float: left;
+    word-wrap: break-word;
+}
+.userImgContainer{
+    width: 5%; 
+    float: left;
+    word-wrap: break-word;
+}
+
+.botImgContainer{
+    width: 5%; 
+    float: right;
+    word-wrap: break-word;
+}
+.userMessage {
+    margin-top: .4rem;
+    width: 95%; 
+    float: left;
+}
+.botMessage {
+    margin-top: .4rem;
+    width: 95%; 
+    float: right;
+}
